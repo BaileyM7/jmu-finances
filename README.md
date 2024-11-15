@@ -1,3 +1,8 @@
+# Names of Collaborators: 
+1. Graph 1: 
+1. Graph 2: 
+1. Graph 3: 
+1. Graph 4: Bailey Malota
 # Goal
 
 Let's learn more about our institution while learning more about javascript and interactive information visualization (a.k.a. "infovis" or "dataviz").

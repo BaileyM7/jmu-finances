@@ -21,8 +21,39 @@ const sankey = d3Sankey.sankey()
   .nodePadding(10)
   .extent([[1, 5], [width - 1, height - 5]]);
 
+
+function nodesLinksFromJMU(dataset) {
+  //leftmost nodes: JMU (positive) Revenue items
+  const jmuIncomeItems = incomeItems(dataset);
+  // second-to-leftmost nodes: JMU Revenue Categories (e.g. operating revenues, non-operating revenues, etc.)
+  const jmuIncomeCategories = jmuIncomeCategories(dataset); 
+  // center node: JMU
+  
+  // second-to-rightmost nodes: JMU Expense (negative revenue) Categories (e.g. operating expenses)
+  
+  // rightmost nodes: JMU Expense items (e.g. Instruction, Research, etc.)
+
+  return [
+    ...jmuIncomeItems,
+    ...jmuIncomeCategories
+  ];
+}
+
+function linksFromJMU(dataset) {
+
+}
+// creating graph number 3
+function nodesLinksFromJMU (dataset) {
+ // return an object with two keys: nodes and links
+ const results = {
+  nodes: nodesFromJMU(dataset),
+  links: linksFromJMU(dataset)
+ }
+}
 async function init() {
-  const data = await d3.json("data/data_sankey.json");
+  // const data = await d3.json("data/data_sankey.json");
+  const dataJMU = await d3.json("data/jmu.json");
+  const data = nodesLinksFromJMU(dataJMU);
   // Applies it to the data. We make a copy of the nodes and links objects
   // so as to avoid mutating the original.
   const { nodes, links } = sankey({
