@@ -14,7 +14,7 @@ Let's learn more about our institution while learning more about javascript and 
 
 ## Getting started with an npm project
 
-Note: this not about using 3p code in your own app
+Note: this not about using 3p code in your own app (final project)
 
 1. come to have the code (e.g. clone repo, as in preceding section)
 1. open a terminal in that directory (i.e. the one that has the `package.json` file), you will know this worked because you will see the `package.json` file when you run `ls` or `dir`
@@ -58,7 +58,7 @@ We will make 4 Sankey diagrams (more details follow) using data from JMU which y
 1. leftmost node: Auxiliary Comprehensive Fee (or "Comprehensive Fee")
 1. rightmost nodes: the `Auxiliary Comprehensive Fee Component` costs from the `student-costs`
 
-### Sankey 3: JMU Athletics Revenues
+### Sankey 3: JMU Revenues
 1. leftmost nodes: JMU (positive) Revenue items
 1. second-to-leftmost nodes: JMU Revenue Categories (e.g. operating revenues, non-operating revenues, etc.)
 1. center node: JMU 
@@ -68,7 +68,7 @@ We will make 4 Sankey diagrams (more details follow) using data from JMU which y
 ### Sankey 4: JMU Athletics Revenues
 
 1. leftmost nodes: football, men's basketball, women's basketball, other sports, non-program specific
-1. second-to-leftmost nodes: JMU Athletics (positive) Revenue items (e.g. Ticker sales, etc.)
+1. second-to-leftmost nodes: JMU Athletics (positive) Revenue items (e.g. Ticket sales, etc.)
 1. center node: JMU Athletics
 1. second-to-rightmost nodes: JMU Athletics Expense categories (negative revenue) (e.g. Athletic student aid, etc.)
 1. rightmost nodes: football, men's basketball, women's basketball, other sports, non-program specific

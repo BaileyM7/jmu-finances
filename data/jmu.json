@@ -636,6 +636,7 @@
   "jmu-athletics": [
     {
       "name": "Ticket sales",
+      "type": "Operating Revenues",
       "Football": 3005827,
       "Men's Basketball": 345290,
       "Women's Basketball": 107173,
@@ -645,6 +646,7 @@
     },
     {
       "name": "Student fees",
+      "type": "Operating Revenues",
       "Football": 0,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -654,6 +656,7 @@
     },
     {
       "name": "Direct institutional support",
+      "type": "Operating Revenues",
       "Football": 284293,
       "Men's Basketball": 153961,
       "Women's Basketball": 153961,
@@ -663,6 +666,7 @@
     },
     {
       "name": "Guarantees",
+      "type": "Operating Revenues",
       "Football": 600000,
       "Men's Basketball": 85000,
       "Women's Basketball": 5000,
@@ -672,6 +676,7 @@
     },
     {
       "name": "Contributions",
+      "type": "Operating Revenues",
       "Football": 145597,
       "Men's Basketball": 75442,
       "Women's Basketball": 30500,
@@ -681,6 +686,7 @@
     },
     {
       "name": "In-Kind",
+      "type": "Operating Revenues",
       "Football": 193327,
       "Men's Basketball": 34101,
       "Women's Basketball": 33101,
@@ -690,6 +696,7 @@
     },
     {
       "name": "NCAA distributions",
+      "type": "Operating Revenues",
       "Football": 2722,
       "Men's Basketball": 0,
       "Women's Basketball": 56616,
@@ -699,6 +706,7 @@
     },
     {
       "name": "Conference distributions (non-media or bowl)",
+      "type": "Operating Revenues",
       "Football": 0,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -708,6 +716,7 @@
     },
     {
       "name": "Program, novelty, parking and concession sales",
+      "type": "Operating Revenues",
       "Football": 134308,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -717,6 +726,7 @@
     },
     {
       "name": "Royalties, licensing, advertisement and sponsorships",
+      "type": "Operating Revenues",
       "Football": 96327,
       "Men's Basketball": 4601,
       "Women's Basketball": 6601,
@@ -726,6 +736,7 @@
     },
     {
       "name": "Other operating revenue",
+      "type": "Operating Revenues",
       "Football": 2640,
       "Men's Basketball": 182773,
       "Women's Basketball": 182773,
@@ -735,6 +746,7 @@
     },
     {
       "name": "Athletic student aid",
+      "type": "Operating Expenses",
       "Football": 3212217,
       "Men's Basketball": 516255,
       "Women's Basketball": 753566,
@@ -744,6 +756,7 @@
     },
     {
       "name": "Guarantees",
+      "type": "Operating Expenses",
       "Football": 950000,
       "Men's Basketball": 14000,
       "Women's Basketball": 12000,
@@ -753,6 +766,7 @@
     },
     {
       "name": "Coaching salaries, benefits and bonuses paid by the Institution and related entities",
+      "type": "Operating Expenses",
       "Football": 2518475,
       "Men's Basketball": 1101383,
       "Women's Basketball": 678208,
@@ -762,6 +776,7 @@
     },
     {
       "name": "Support staff/administrative compensation, benefits, and bonuses paid by the Institution and related entities",
+      "type": "Operating Expenses",
       "Football": 909162,
       "Men's Basketball": 344723,
       "Women's Basketball": 348127,
@@ -771,6 +786,7 @@
     },
     {
       "name": "Recruiting",
+      "type": "Operating Expenses",
       "Football": 233311,
       "Men's Basketball": 103466,
       "Women's Basketball": 98330,
@@ -780,6 +796,7 @@
     },
     {
       "name": "Team travel",
+      "type": "Operating Expenses",
       "Football": 845559,
       "Men's Basketball": 587562,
       "Women's Basketball": 540947,
@@ -789,6 +806,7 @@
     },
     {
       "name": "Sports equipment, uniforms and supplies",
+      "type": "Operating Expenses",
       "Football": 571022,
       "Men's Basketball": 69787,
       "Women's Basketball": 67156,
@@ -798,6 +816,7 @@
     },
     {
       "name": "Game expenses",
+      "type": "Operating Expenses",
       "Football": 365825,
       "Men's Basketball": 353277,
       "Women's Basketball": 301700,
@@ -807,6 +826,7 @@
     },
     {
       "name": "Fundraising, marketing and promotion",
+      "type": "Operating Expenses",
       "Football": 209016,
       "Men's Basketball": 97480,
       "Women's Basketball": 59526,
@@ -816,6 +836,7 @@
     },
     {
       "name": "Spirit groups",
+      "type": "Operating Expenses",
       "Football": 0,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -825,6 +846,7 @@
     },
     {
       "name": "Athletic facility leases and rental fees",
+      "type": "Operating Expenses",
       "Football": 17500,
       "Men's Basketball": 11550,
       "Women's Basketball": 9975,
@@ -834,6 +856,7 @@
     },
     {
       "name": "Athletic facility debt service",
+      "type": "Operating Expenses",
       "Football": 0,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -843,6 +866,7 @@
     },
     {
       "name": "Direct overhead and administrative expenses",
+      "type": "Operating Expenses",
       "Football": 1409431,
       "Men's Basketball": 608113,
       "Women's Basketball": 610364,
@@ -852,6 +876,7 @@
     },
     {
       "name": "Indirect cost paid to the institution by Athletics",
+      "type": "Operating Expenses",
       "Football": 0,
       "Men's Basketball": 0,
       "Women's Basketball": 0,
@@ -861,6 +886,7 @@
     },
     {
       "name": "Medical expenses and insurance",
+      "type": "Operating Expenses",
       "Football": 75978,
       "Men's Basketball": 11900,
       "Women's Basketball": 5526,
@@ -870,6 +896,7 @@
     },
     {
       "name": "Memberships and dues",
+      "type": "Operating Expenses",
       "Football": 1625,
       "Men's Basketball": 1220,
       "Women's Basketball": 1250,
@@ -879,6 +906,7 @@
     },
     {
       "name": "Student-athlete meals (non-travel)",
+      "type": "Operating Expenses",
       "Football": 56932,
       "Men's Basketball": 8485,
       "Women's Basketball": 8996,
@@ -888,6 +916,7 @@
     },
     {
       "name": "Other operating expenses",
+      "type": "Operating Expenses",
       "Football": 145599,
       "Men's Basketball": 63585,
       "Women's Basketball": 66603,
